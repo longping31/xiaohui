@@ -17,10 +17,9 @@
 	<div class="city"><img src="img/city.png" alt="" /></div>
 	<img src="img/moon.png" alt="" id="moon" style="visibility: hidden;"/>
 	<div style="display:none">
-		<div class="shape">新年快乐</div>
+		<div class="shape">小慧春节快乐</div>
 		<div class="shape">早日脱单</div>
         <div class="shape">一夜暴富</div>
-        <div class="shape">提前退休</div>
         <div class="shape">多吃不胖</div>
 	</div>
 	
@@ -55,8 +54,8 @@
 
 
 			var newTime = new Date();
-            if(newTime-lastTime>200+(window.innerHeight-1170)/2){
-				var random = Math.random()*100>2?true:false;
+            if(newTime-lastTime>50+(window.innerHeight-1170)/2){
+				var random = Math.random()*100>10?true:false;
 				var x = getRandom(canvas.width/5 , canvas.width*4/5);
 				var y = getRandom(50 , 200);
 				if(random){
